@@ -1,4 +1,4 @@
-FROM cirrusci/flutter:3.3.5
+FROM cirrusci/flutter:3.3.7
 
 RUN flutter precache --no-ios --no-web --no-linux --no-windows --no-macos --no-fuchsia \
     && apt update \
